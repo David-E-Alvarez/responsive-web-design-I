@@ -133,11 +133,9 @@ hr{
 	
 }
 
-.middle-img{
+.annoyingPic{
     display: flex;
     justify-content: center;
-	margin-top: 15px;
-    margin-left: 18%; 
 }
 
 .section2{/*introduce flex to section*/
@@ -243,25 +241,25 @@ address{
 
 /*mobile media queries*/
 @media(max-width: 500px) {
-    body{
-        margin-left: 20%;
-        margin-right: 20%;
-    }
-    .logo{
-        margin-left: 15%;
+    .header1{
+        display: flex;
+        justify-content: center;
     }
     .header1 nav{
         display: flex;
         flex-direction: column-reverse;
+    }
+    .header1 nav div{
+        display: flex;
+        justify-content: center;
     }
     .links{
         display: flex;
         flex-direction: column;
     }
     .links a{
-        display: flex;
-        justify-content: center;
-        border-top: 1px black solid;
+        text-align: center;
+        border-bottom: black 1px solid;
     }
     .header-img{
         display: none;
@@ -280,5 +278,26 @@ address{
         display: flex;
         flex-direction: column;
     }
+}
+
+/*tablet media queries*/
+@media(max-width: 800px) {
+    .header1{
+        display: flex;
+        justify-content: center;
+    }
+    .header-img{
+        display: none;
+    }
+    .header1 nav{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+   .links{
+       display: flex;
+       justify-content: space-evenly;
+       
+   }
+        
 }
 
