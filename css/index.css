@@ -243,11 +243,25 @@ address{
 
 /*mobile media queries*/
 @media(max-width: 500px) {
+    body{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .logo{
+        margin-left: 15%;
+    }
+    .header1 nav{
+        display: flex;
+        flex-direction: column-reverse;
+    }
     .links{
         display: flex;
         flex-direction: column;
-        border: 2px black solid;
+    }
+    .links a{
+        display: flex;
         justify-content: center;
+        border-top: 1px black solid;
     }
     .header-img{
         display: none;
