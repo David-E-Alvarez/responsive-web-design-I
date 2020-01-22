@@ -91,17 +91,14 @@ body{
 .header2{/*code for where "innovation..." and image are; in a header*/
 	margin-top: 3%;
 	display: flex;
-	justify-content: space-around;
-	/*border: 2px red solid;*/
-	width: 65%;
-	margin-left: 15%;
+	justify-content: center;
 	margin-bottom: 50px;
 }
 
 .header2 h1{/*used to center "innovation on demand*/
 	font-size: 5em;
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 40px;
 }
 
 .header2 .aHrefButton{/*styles "get started" button */
@@ -128,8 +125,12 @@ hr{
 	width: 49%;
 	margin-left: 23%;
 }
+.section1 div{
+	margin-bottom: 20px;
+}
 .divContainer1{
 	display: flex;
+	margin-top: 15px;
 	margin-bottom: 15px;
 }
 .middle-img{
@@ -138,11 +139,7 @@ hr{
 .divContainer2{
 	display: flex;
 	margin-top: 15px;
-}
-
-
-.container{
-	border: 2px red solid;
+	margin-bottom: 15px;
 }
 
 
@@ -249,22 +246,18 @@ address{
         display: flex;
         flex-direction: column-reverse;
     }
-    .header1 nav div{
-        display: flex;
-        justify-content: center;
-    }
+    
     .links{
         display: flex;
         flex-direction: column;
     }
     .links a{
         text-align: center;
-        border-bottom: black 1px solid;
     }
     .header-img{
         display: none;
     }
-    .section1{
+    .section1 div{
         display: flex;
         flex-direction: column;
     }
