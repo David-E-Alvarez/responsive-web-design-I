@@ -68,6 +68,7 @@ h1, h2, h3, h4, h5 {
 body{
 	margin: 0 auto;
 }
+
 .header1 nav{
 	display: flex;
 	justify-content: space-evenly;
@@ -271,22 +272,27 @@ address{
 
 /*tablet media queries*/
 @media(max-width: 800px) {
-    .header1{
+	.header1{
         display: flex;
-        justify-content: center;
+		justify-content: center;
     }
+	.header1  nav{
+		display: flex;
+        flex-direction: column-reverse;
+		width: 100%;
+	}
+	.header1 div{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+	div .links{
+		display: flex;
+		justify-content: space-evenly;
+	}
     .header-img{
         display: none;
     }
-    .header1 nav{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-   .links{
-       display: flex;
-       justify-content: space-evenly;
-       
-   }
         
 }
 
